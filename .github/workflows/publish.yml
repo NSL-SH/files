@@ -10,7 +10,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  # Resolves to yundera/files, so the image is ghcr.io/yundera/files.
+  # Resolves to nsl-sh/files, so the image is ghcr.io/nsl-sh/files.
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
